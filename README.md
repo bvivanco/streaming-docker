@@ -15,7 +15,7 @@ Esperamos unos minutos a que termine de crearse los contenedores de nuestro clus
 
 Validamos abriendo el siguiente link:
 
-[localhost:8080](hhttp://localhost:8080/)
+[localhost:8080](http://localhost:8080/)
 
 Nos deberia quedar algo asi:
 
