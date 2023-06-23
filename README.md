@@ -10,7 +10,7 @@ El objetivo de estar instalar es contar con una cluster multinodo, con las tecno
 ## Spark
 * Crear cluster con docker file
 
-    A partir del archivo "docker-compose.yml" vamos a crear nuestro cluster.
+    A partir del archivo [docker-compose.yml](https://github.com/bvivanco/streaming-docker/blob/main/docker-compose.yml) vamos a crear nuestro cluster.
 
     Abrimos un cmd y nos ubicamos donde se encuentra el archivo .yml, ejecutando este comando:
 
