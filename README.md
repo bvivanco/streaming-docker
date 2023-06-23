@@ -34,7 +34,7 @@ El objetivo de estar instalar es contar con una cluster multinodo, con las tecno
     Resultado:
     ![Captura Lista Contenedores](./images/lista-contenedores.png)
 
-    Nota: Seleccionar el contenedor relacionado al nodo master de Spark, el nombre que tenga `spark-1`
+    Nota: Seleccionar el contenedor relacionado al nodo master de Spark, el nombre que tenga `spark-master`
 
 * Ingresar al contenedor de Spark Master
     ```bash
