@@ -43,20 +43,32 @@ El objetivo de estar instalar es contar con una cluster multinodo, con las tecno
 
 * Ejecutar un codigo python para validar nuestro cluster
 
-    Consideracion: En el lugar donde dejamos nuestro archivo `docker-compose.yml`, crear un archivo .py con nuestro codigo.
+    Consideracion: En la carpeta donde descargamos nuestro archivo `docker-compose.yml`, crear un archivo .py con nuestro codigo.
 
     ![Captura Archivos](./images/archivos.png)
 
     Descargar el archivo [rddexercise.py](https://github.com/bvivanco/streaming-docker/blob/main/rddexercise.py)
 
+    Nota: Este archivo podrá ser accedido dentro de nuestro cluster, en la ruta /opt/spark
+
+    ```bash
+    I have no name!@fcf06787541f:/opt/spark$ ls -1
+    docker-compose-4.yml
+    otros
+    proyectos
+    rddexercise.py
+    wordcount.py
+    ```
+
+
+    Asegurarnos que estemos en esta ruta `/opt/bitnami/spark`, y ejecutar el siguiente comando:
     ```bash
     spark-submit /opt/spark/rddexercise.py
     ```
-    Asegurarnos que estemos en esta ruta `/opt/spark`, ejemplo de ejecucion final:
+    Ejemplo de la ejecucion:
 
     ```bash
     I have no name!@fcf06787541f:/opt/bitnami/spark$ spark-submit /opt/spark/rddexercise.py
     ```
     Finalmente, como resultado nos deberia mostrar un dataframe:
     ![Captura Resultado df](./images/resultado_df.png)
-    
