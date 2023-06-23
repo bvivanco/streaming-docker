@@ -59,8 +59,6 @@ El objetivo de estar instalar es contar con una cluster multinodo, con las tecno
     rddexercise.py
     wordcount.py
     ```
-
-
     Asegurarnos que estemos en esta ruta `/opt/bitnami/spark`, y ejecutar el siguiente comando:
     ```bash
     spark-submit /opt/spark/rddexercise.py
