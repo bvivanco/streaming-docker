@@ -15,7 +15,7 @@ El objetivo de estar instalar es contar con una cluster multinodo, con las tecno
     Abrimos un cmd y nos ubicamos donde se encuentra el archivo .yml, ejecutando este comando:
 
     ```bash
-    docker compose -f "myfile.yml" up -d
+    docker compose -f "docker-compose.yml" up -d
     ```
     Esperamos unos minutos hasta que termine de crearse los contenedores de nuestro cluster.
 
