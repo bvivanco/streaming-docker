@@ -38,7 +38,7 @@ El objetivo de estar instalar es contar con una cluster multinodo, con las tecno
 
 * Ingresar al contenedor de Spark Master
     ```bash
-    docker exec -it fcf06787541f bash
+    docker exec -it abbf72f96045 bash
     ```
 
 * Ejecutar un codigo python para validar nuestro cluster
