@@ -1,6 +1,12 @@
 # Instalacion de Spark y Kafka
 El objetivo de estar instalar es contar con una cluster multinodo, con las tecnologias Spark y Kafka.
 
+## Pre-requisitos 💡
+
+* [Instalar Docker](https://www.docker.com/products/docker-desktop/)
+  * [Video Explicativo](https://www.youtube.com/watch?v=ZO4KWQfUBBc )
+* [Instalar Git](https://git-scm.com/downloads)
+
 ## Spark
 * Crear cluster con docker file
 
@@ -17,7 +23,7 @@ El objetivo de estar instalar es contar con una cluster multinodo, con las tecno
 
     [localhost:8080](http://localhost:8080/)
 
-    ![Captura Spark](./capture_spark.png)
+    ![Captura Spark](./images/capture_spark.png)
 
 * Consultamos los contenedores creados
 
@@ -26,7 +32,7 @@ El objetivo de estar instalar es contar con una cluster multinodo, con las tecno
     docker ps
     ```
     Resultado:
-    ![Captura Lista Contenedores](./lista-contenedores.png)
+    ![Captura Lista Contenedores](./images/lista-contenedores.png)
 
     Nota: Seleccionar el contenedor relacionado al nodo master de Spark, el nombre que tenga `spark-1`
 
@@ -39,7 +45,7 @@ El objetivo de estar instalar es contar con una cluster multinodo, con las tecno
 
     Consideracion: En el lugar donde dejamos nuestro archivo `docker-compose.yml`, crear un archivo .py con nuestro codigo.
 
-    ![Captura Archivos](./archivos.png)
+    ![Captura Archivos](./images/archivos.png)
 
     ```bash
     spark-submit /opt/spark/rddexercise.py
@@ -50,5 +56,5 @@ El objetivo de estar instalar es contar con una cluster multinodo, con las tecno
     I have no name!@fcf06787541f:/opt/bitnami/spark$ spark-submit /opt/spark/rddexercise.py
     ```
     Finalmente, como resultado nos deberia mostrar un dataframe:
-    ![Captura Resultado df](./resultado_df.png)
+    ![Captura Resultado df](./images/resultado_df.png)
     
