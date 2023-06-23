@@ -52,7 +52,7 @@ El objetivo de estar instalar es contar con una cluster multinodo, con las tecno
     ```bash
     spark-submit /opt/spark/rddexercise.py
     ```
-    Asegurarnos que estemos en esta ruta `/opt/bitnami/spark`, ejemplo:
+    Asegurarnos que estemos en esta ruta `/opt/spark`, ejemplo de ejecucion final:
 
     ```bash
     I have no name!@fcf06787541f:/opt/bitnami/spark$ spark-submit /opt/spark/rddexercise.py
