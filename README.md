@@ -47,7 +47,7 @@ El objetivo de estar instalar es contar con una cluster multinodo, con las tecno
 
     ![Captura Archivos](./images/archivos.png)
 
-    Descargar el archivo [rddexercise.py](https://github.com/bvivanco/streaming-docker/blob/main/rddexercise.py)
+    Descargar el archivo [rddexercise.py](https://github.com/bvivanco/streaming-docker/blob/main/source/rddexercise.py)
 
     Nota: Este archivo podrá ser accedido dentro de nuestro cluster, en la ruta /opt/spark
 
