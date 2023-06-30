@@ -16,7 +16,6 @@ if __name__ == "__main__":
     spark = SparkSession \
         .builder \
         .appName("Python") \
-        #.config("spark.some.config.option", "some-value") \
         .getOrCreate()
     # $example off:init_session$
 
