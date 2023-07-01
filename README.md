@@ -152,3 +152,17 @@ Finalmente deberíamos tener algo así, a medida que vayamos escribiendo los men
 Nota: Podemos validar que los mensajes llegan particionados, y no se repiten entre los brokers.
 
 ![Producer](./images/consumerbypartition.png)
+
+## Ejecución de Kafka en Spark
+
+* Ejecutar el comando de spark-submit con las depedencias de Kafka
+
+    ```bash
+    spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2 /opt/spark/kakfaSinkWithSpark.py
+    ```
+* Ejemplo de trama en nuestro producer (registrarlo un valor a la vez):
+{"nombre":"Juan","apellido":"Gonzales","pais":"Peru"}
+{"nombre":"Raul","apellido":"Gonzales","pais":"Colombia"}
+{"nombre":"Jose","apellido":"Gonzales","pais":"Chile"}
+{"nombre":"Pablo","apellido":"Gonzales","pais":"Ecuador"}
+{"nombre":"Aldo","apellido":"Gonzales","pais":"Argentina"}
